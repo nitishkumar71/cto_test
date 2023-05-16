@@ -1,0 +1,8 @@
+# for more info visit https://cto.ai/docs
+version: "1"
+services:
+  - name: cto_test:0.0.1
+    description: Production Testing App
+    port: [ '8080:8080' ]
+    domain: ""
+    run: /ops/main
