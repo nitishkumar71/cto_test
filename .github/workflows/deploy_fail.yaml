@@ -1,0 +1,15 @@
+name: Deployment Metrics
+on:
+  workflow_dispatch:
+jobs:
+  ctoai-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Report Deployment Failed'
+        uses: cto-ai/action@v1.4
+        id: ctoai-action
+        with:
+          team_id: ${{ secrets.CTOAI_TEAM }}
+          token: ${{ secrets.CTOAI_TOKEN }}
+          event_name: "deployment"
+          event_action: "failed"
