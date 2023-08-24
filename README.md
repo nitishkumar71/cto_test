@@ -1,2 +1,2 @@
 # cto_test
-Testing Repo to publish DORA Metrics
+Repo to publish DORA Metrics
