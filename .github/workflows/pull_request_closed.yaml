@@ -1,0 +1,13 @@
+name: Pull Request
+on:
+  pull_request:
+    types:
+      - closed
+jobs:
+  ctoai-metrics:
+    runs-on: ubuntu-latest
+    environment: staging
+    steps:
+      - name: 'Deploy Dummy'
+        run: |
+          echo "noop"
