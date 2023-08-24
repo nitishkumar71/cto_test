@@ -8,4 +8,6 @@ jobs:
     steps:
       - name: 'Deploy Dummy'
         run: |
-          echo "noop"
+          echo "Deployment Started!"
+          sleep 60
+          echo "Deployment Done!"
