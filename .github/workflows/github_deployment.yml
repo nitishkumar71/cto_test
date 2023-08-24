@@ -1,0 +1,13 @@
+name: Github Deployment
+on:
+  workflow_dispatch:
+jobs:
+  ctoai-metrics:
+    runs-on: ubuntu-latest
+    environment: staging
+    steps:
+      - name: 'Deploy Dummy'
+        run: |
+          echo "Deployment Started!"
+          sleep 60
+          echo "Deployment Done!"
