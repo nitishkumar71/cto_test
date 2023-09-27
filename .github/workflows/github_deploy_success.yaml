@@ -1,0 +1,11 @@
+name: Github Job Deployment Success Metrics
+on:
+  workflow_dispatch:
+jobs:
+  ctoai-metrics:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: 'Report Deployment Success'
+        run: |
+          echo "Success Deployment"

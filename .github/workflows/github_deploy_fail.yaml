@@ -1,0 +1,12 @@
+name: Github Job Deployment Fail Metrics
+on:
+  workflow_dispatch:
+jobs:
+  ctoai-metrics:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: 'Report Deployment Failed'
+        run: |
+          echo "Failed Deployment"
+          exit 1
