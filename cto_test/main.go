@@ -15,7 +15,7 @@ func main() {
 		"event_name":   "deployment",
 		"event_action": "success",
 		"branch":       "test_sdk_deployment",
-		"repo":         "nitishkumar/cto_test",
+		"repo":         "nitishkumar71/cto_test",
 		"environment":  "production",
 	}
 
