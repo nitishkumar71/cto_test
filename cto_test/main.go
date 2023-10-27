@@ -14,8 +14,8 @@ func main() {
 	event := map[string]interface{}{
 		"event_name":   "deployment",
 		"event_action": "success",
-		"branch":       "test_sdk_deployment",
-		"repo":         "nitishkumar/cto_test",
+		"branch":       "fix_sdk_ops_run",
+		"repo":         "nitishkumar71/cto_test",
 		"environment":  "production",
 	}
 
